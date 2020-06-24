@@ -6,41 +6,41 @@ colors = {"black","white","pink","blue"}
 print("The set of colors : ",colors)
 
 
-# 1)using add() method:
+# 1)using add() method to add element:
 colors.add("red")
-print("\ncolors set after adding a color: ",colors)
+print("colors set after adding a color: ",colors)
 
 
-# 2)using update() method:
+# 2)using update() method to update new element:
 colors.update(["magenta","green"])
-print("\ncolor set after updation: ",colors)
+print("color set after updation: ",colors)
 
 
-# 3)using length() method:
+# 3)using length() method to get length:
 length = len(colors)
-print("\nThe length of the colors set is: ",length)
+print("The length of the colors set is: ",length)
 
 
-# 4)using remove() method:
+# 4)using remove() method to remove element:
 colors.remove("blue")
-print("\nThe colors set after removing blue color: ",colors)
+print("The colors set after removing blue color: ",colors)
 
 
 
-# 5)using discard() method:
+# 5)using discard() method to delete element:
 colors.discard("green")
-print("\nThe colors set after discarding green color: ",colors)
+print("The colors set after discarding green color: ",colors)
 
 
 
-# 6)using pop() method:
+# 6)using pop() method to delete last element:
 colors.pop()
-print("\nThe colors set after performing a pop opearation: ",colors)
+print("The colors set after performing a pop opearation: ",colors)
 
 
-# 7)using clear() method:
+# 7)using clear() method to clear all the set:
 colors.clear()
-print("\nThe set colors after using clear method: ",colors)
+print("The set colors after using clear method: ",colors)
 
 
 
