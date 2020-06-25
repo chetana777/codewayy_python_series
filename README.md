@@ -14,3 +14,11 @@ Working with built-in datastructures in python
   - Tuples
   - Sets
   - Dictionaries
+  
+## Task3
+Task 3 contains following Topics:
+* What is If-elif 
+* Working with loops-For,While
+* Break statement
+* Continue statement 
+* How to use Functions
