@@ -6,41 +6,41 @@ fruits = {"a":"Apple","b":"Banana","c":"Cherry","m":"Mango"}
 print("The dictionary of fruits : ",fruits)
 
 
-# 1)using get() method:
+# 1)using get() method to get value:
 get_fruit=fruits.get("m")
-print("\nvalue for the 'm' key is: ",get_fruit)
+print("value for the 'm' key is: ",get_fruit)
 
 
 
-# 2)using keys() method:
+# 2)using keys() method to get keys:
 keys = fruits.keys()
-print("\nkeys: ",keys)
+print("keys: ",keys)
 
 
-# 3)using length method:
+# 3)using len() method to find length:
 length = len(fruits)
-print("\nThe length of the fruits dictionary is: ",length)
+print("The length of the fruits dictionary is: ",length)
 
 
-# 4)using values()method:
+# 4)using values() method to get all the values:
 values = fruits.values()
-print("\nkeys: ",values)
+print("values: ",values)
 
 
-# 5)using items() method:
+# 5)using items() method to get all the items of dictionary:
 items = fruits.items()
-print("\nItems: ",items)
+print("Items: ",items)
 
 
 
-# 6)using pop() method:
+# 6)using pop() method to delete last element:
 fruits.pop("c")
-print("\nThe fruits dictionary after performing a pop('c') opearation: ",fruits)
+print("The fruits dictionary after performing a pop('c') opearation: ",fruits)
 
 
-# 7)using copy() method:
+# 7)using copy() method to copy the given dictionary into another:
 fruits_new = fruits.copy()
-print("\nThe new copy of fruits dictionary is: ",fruits_new)
+print("The new copy of fruits dictionary is: ",fruits_new)
 
 
 
