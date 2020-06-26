@@ -2,7 +2,7 @@
 
 #using for loop
 
-def PrintNumbersUsingForLoop():
+def printNumbersUsingForLoop():
     for number in range (1,11):
         if number==3 or number==7:
             continue
@@ -12,7 +12,7 @@ def PrintNumbersUsingForLoop():
 
 #using while loop:
 
-def PrintNumbersUsingForLoop():
+def printNumbersUsingForLoop():
     number=1
     while(number!=11):
         if number==3 or number==7:
@@ -25,7 +25,7 @@ def PrintNumbersUsingForLoop():
         
 #calling functions
 print("Printing Numbers by using for loop")
-PrintNumbersUsingForLoop()
+printNumbersUsingForLoop()
 print("Printing Numbers by using while loop")
-PrintNumbersUsingForLoop()
+printNumbersUsingForLoop()
         

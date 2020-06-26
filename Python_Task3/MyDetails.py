@@ -1,61 +1,61 @@
 #function for displaying full name:
 
-def FullName():
-    FullName=input("enter your FullName=>")
-    print("My Name is =>",FullName)
+def fullName():
+    fullName=input("enter your FullName=>")
+    print("My Name is =>",fullName)
 
 
 #function for returning total marks:
 
-def CalculateTotalMarks():
+def calculateTotalMarks():
     
 #creating an empty list:
     Marks=[]
 
 #number of elements as input:
-    NumberOfSubjects=int(input("enter number of subjects=>"))
+    numberOfSubjects=int(input("enter number of subjects=>"))
 
-    for i in range(0,NumberOfSubjects):
-        SubjectMarks=int(input("Enter marks:"))
-        Marks.append(SubjectMarks)
+    for i in range(0,numberOfSubjects):
+        subjectMarks=int(input("Enter marks:"))
+        Marks.append(subjectMarks)
 
-    TotalMarks=sum(Marks)
-    print("Total marks are=>",TotalMarks)
+    totalMarks=sum(Marks)
+    print("Total marks are=>",totalMarks)
 
 #function for returning percentage:
 
-def CalculatePercentage():
-    TotalMarks=int(input("enter total marks=>"))
-    NumberOfSubjects=int(input("enter number of subjects=>"))
-    Percentage=TotalMarks/NumberOfSubjects
-    print("Percentage=>",Percentage)
+def calculatePercentage():
+    totalMarks=int(input("enter total marks=>"))
+    numberOfSubjects=int(input("enter number of subjects=>"))
+    percentage=totalMarks/numberOfSubjects
+    print("Percentage=>",percentage)
 
 #function for displaying Grades:
 
-def CalculateGrades():
-    Percentage=float(input("enter total percentage=>"))
-    if (Percentage>=95):
+def calculateGrades():
+    percentage=float(input("enter total percentage=>"))
+    if (percentage>=95):
         print("Obtained Grade is A")
-    elif (Percentage>=85 and Percentage<=95):
+    elif (percentage>=85 and percentage<=95):
         print("Obtained Grade is B")
-    elif (Percentage>=75 and Percentage<=85):
+    elif (percentage>=75 and percentage<=85):
         print("Obtained Grade is C")
-    elif (Percentage>=65 and Percentage<=55):
+    elif (percentage>=65 and percentage<=55):
         print("Obtained Grade is D")
     else:
         print("OOPs you are Failed")
 
 #function to print mydetails:
     
-def MyDetails():
-    FullName()
-    CalculateTotalMarks()
-    CalculatePercentage()
-    CalculateGrades()
+def myDetails():
+    fullName()
+    calculateTotalMarks()
+    calculatePercentage()
+    calculateGrades()
 
 #calling function MyDetails
     
-MyDetails()
+myDetails()
 
 
 

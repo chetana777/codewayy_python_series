@@ -2,15 +2,15 @@
 
 #Taking input
 
-String1=input("Enter string 1=>")
-String2=input("Enter string 2=>")
+string1=input("Enter string 1=>")
+string2=input("Enter string 2=>")
 
 #Concatanate two strings
 
-CombinedString=String1+" "+String2
+combinedString=string1+" "+string2
 
 #displaying length of string
 
-Length=len(CombinedString)
-print("The length of string is=>",Length)
+length=len(combinedString)
+print("The length of string is=>",length)
 
